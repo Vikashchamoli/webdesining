@@ -452,49 +452,6 @@ header .container {
 
 
 
-
-
-/*-----------------------------------*\
- * #FAQ
-\*-----------------------------------*/
-
-.faq { padding: var(--section-padding); }
-
-.faq :is(.section-subtitle, .section-title) { text-align: center; }
-
-.faq .section-title { margin-bottom: 50px; }
-
-.grid-wrapper { margin-bottom: 40px; }
-
-.faq .card-title { margin-bottom: 15px; }
-
-.faq-list:first-child,
-.faq-list > li:not(:last-child) { margin-bottom: 30px; }
-
-.faq-item-list { margin-left: 18px; }
-
-.faq-item-list li { list-style: disc; }
-
-.faq-bottom-link {
-  color: var(--gunemtal);
-  font-size: var(--fs-5);
-  font-weight: var(--fw-500);
-  text-align: center;
-}
-
-.faq-bottom-link > a {
-  color: var(--sonic-silver);
-  text-decoration: underline;
-  margin-top: 5px;
-  display: inline-block;
-}
-
-.faq-bottom-link > a:is(:hover, :focus) { color: var(--granite-gray); }
-
-
-
-
-
 /*-----------------------------------*\
  * #CTA
 \*-----------------------------------*/
@@ -1308,4 +1265,9 @@ header .container {
     height: 50px;
   }
 
+}
+
+.gifs{
+  height: 240px;
+  width: 300px;
 }
