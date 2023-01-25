@@ -196,7 +196,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: hsl(205, 100%, 50%);
+  background:white;
   z-index: 4;
   transition: var(--transition);
 }
